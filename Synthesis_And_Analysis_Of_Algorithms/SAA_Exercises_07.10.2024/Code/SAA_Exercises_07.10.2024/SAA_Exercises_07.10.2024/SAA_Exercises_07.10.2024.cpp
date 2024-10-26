@@ -4,6 +4,7 @@
 #include <sstream>
 #include <vector>
 
+// Design an algorithm that finds the sum of the digits of a natural three-digit number
 int SumOfDigits(int number)
 {
     int sum = 0;
@@ -16,6 +17,7 @@ int SumOfDigits(int number)
     return sum;
 }
 
+// Design an algorithm that swaps the values of two variables (natural numbers) by addition 
 void SwapValuesByAddition(int a, int b) {
     std::cout << "A (before): " << a << "; B (before): " << b << "\n";
 
@@ -26,6 +28,8 @@ void SwapValuesByAddition(int a, int b) {
     std::cout << "A (after): " << a << "; B (after): " << b << "\n";
 }
 
+// Write a program that finds the perimeter of a triangle using 
+// the law of sines, when two angles and a side are known.
 double FindTrianglePerimeter(double firstAngle, double secondAngle, double a) {
     double A_rad = firstAngle * M_PI / 180.0;
     double B_rad = secondAngle * M_PI / 180.0;
@@ -39,6 +43,9 @@ double FindTrianglePerimeter(double firstAngle, double secondAngle, double a) {
     return std::ceil((a + b + c) * 100.0) / 100.0;;
 }
 
+// Write a program to determine if a given year is a leap year 
+// (Hint: The extra leap day occurs in each year that is a multiple of 4, 
+// except for years evenly divisible by 100 but not by 400.)
 std::string FindIfYearIsALeapYear(int year) {
     std::stringstream ss;
     ss << "The year " << year << (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0) 
@@ -48,17 +55,21 @@ std::string FindIfYearIsALeapYear(int year) {
     return ss.str();
 }
 
+// Rewrite the program in Task 1 so that it finds the sum of the digits
+// of a natural number with an arbitrary number of digits.
 int SumOfDigitsSecondVersion(int number) {
     int sum = 0;
 
     while (number != 0) {
-        sum += number % 10;  // Add the last digit to sum
-        number /= 10;        // Remove the last digit from the number
+        sum += number % 10;  
+        number /= 10;       
     }
 
     return sum;
 }
 
+// Design an algorithm that counts the number of pairs of adjacent elements 
+// in which the two elements have different signs.
 int CountDifferentSignPairs(const std::vector<int>& arr) {
     int count = 0;
 
@@ -73,6 +84,9 @@ int CountDifferentSignPairs(const std::vector<int>& arr) {
 
 int main()
 {
+    // The values for each algorithm are hardcoded for ease of visualization of the algorithms. 
+    // Of course, th values can be read from the console at request using cin.
+
     std::cout.precision(4);
 
     // Task 1
@@ -100,6 +114,12 @@ int main()
     std::cout << FindIfYearIsALeapYear(2000) << "\n";
 
     // Task 5
+    std::cout << "<=== Task 1 ===>\n";
+    std::cout << SumOfDigitsSecondVersion(562) << "\n";
+    std::cout << SumOfDigitsSecondVersion(1245) << "\n";
+    std::cout << SumOfDigitsSecondVersion(56321) << "\n";
+
+    // Task 6
     std::cout << "\n\n<=== Task 5 ===>\n";
     std::cout << "Number of adjacent pairs with different signs: "  
         << CountDifferentSignPairs({ -3, 5, -7, 8, -10 }) << "\n";
