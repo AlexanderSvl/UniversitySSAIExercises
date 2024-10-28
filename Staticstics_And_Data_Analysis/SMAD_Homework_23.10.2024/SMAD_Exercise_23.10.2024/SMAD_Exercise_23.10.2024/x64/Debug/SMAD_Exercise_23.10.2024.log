@@ -1,0 +1,5 @@
+﻿  SMAD_Exercise_23.10.2024.cpp
+C:\Users\User\Desktop\University\UniversityExercises\Staticstics_And_Data_Analysis\SMAD_Homework_23.10.2024\SMAD_Exercise_23.10.2024\SMAD_Exercise_23.10.2024\SMAD_Exercise_23.10.2024.cpp(31,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\Desktop\University\UniversityExercises\Staticstics_And_Data_Analysis\SMAD_Homework_23.10.2024\SMAD_Exercise_23.10.2024\SMAD_Exercise_23.10.2024\SMAD_Exercise_23.10.2024.cpp(74,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\Desktop\University\UniversityExercises\Staticstics_And_Data_Analysis\SMAD_Homework_23.10.2024\SMAD_Exercise_23.10.2024\SMAD_Exercise_23.10.2024\SMAD_Exercise_23.10.2024.cpp(75,71): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  SMAD_Exercise_23.10.2024.vcxproj -> C:\Users\User\Desktop\University\UniversityExercises\Staticstics_And_Data_Analysis\SMAD_Homework_23.10.2024\SMAD_Exercise_23.10.2024\x64\Debug\SMAD_Exercise_23.10.2024.exe
