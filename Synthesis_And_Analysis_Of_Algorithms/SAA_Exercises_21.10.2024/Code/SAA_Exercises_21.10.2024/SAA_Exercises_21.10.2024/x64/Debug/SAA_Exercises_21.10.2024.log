@@ -1,0 +1,3 @@
+﻿  SAA_Exercises_21.10.2024.cpp
+C:\Users\User\Desktop\University\UniversityExercises\Synthesis_And_Analysis_Of_Algorithms\SAA_Exercises_21.10.2024\Code\SAA_Exercises_21.10.2024\SAA_Exercises_21.10.2024\SAA_Exercises_21.10.2024.cpp(35,16): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  SAA_Exercises_21.10.2024.vcxproj -> C:\Users\User\Desktop\University\UniversityExercises\Synthesis_And_Analysis_Of_Algorithms\SAA_Exercises_21.10.2024\Code\SAA_Exercises_21.10.2024\x64\Debug\SAA_Exercises_21.10.2024.exe
