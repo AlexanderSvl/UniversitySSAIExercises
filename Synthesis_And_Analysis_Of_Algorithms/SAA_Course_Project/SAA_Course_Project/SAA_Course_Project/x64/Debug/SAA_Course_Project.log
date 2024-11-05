@@ -1,6 +1,4 @@
-﻿  Customer.cpp
-C:\Users\User\Desktop\University\UniversityExercises\Synthesis_And_Analysis_Of_Algorithms\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project\Customer.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  SAA_Course_Project.cpp
-C:\Users\User\Desktop\University\UniversityExercises\Synthesis_And_Analysis_Of_Algorithms\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project.cpp(40,17): warning C4129: 'G': unrecognized character escape sequence
-  Generating Code...
+﻿  SAA_Course_Project.cpp
+C:\Users\User\Desktop\University\UniversityExercises\Synthesis_And_Analysis_Of_Algorithms\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project.cpp(42,17): warning C4129: 'G': unrecognized character escape sequence
+C:\Users\User\Desktop\University\UniversityExercises\Synthesis_And_Analysis_Of_Algorithms\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project.cpp(81,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   SAA_Course_Project.vcxproj -> C:\Users\User\Desktop\University\UniversityExercises\Synthesis_And_Analysis_Of_Algorithms\SAA_Course_Project\SAA_Course_Project\x64\Debug\SAA_Course_Project.exe
