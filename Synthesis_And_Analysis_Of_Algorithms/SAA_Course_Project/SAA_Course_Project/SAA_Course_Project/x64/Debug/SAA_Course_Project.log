@@ -1,4 +1,4 @@
 ﻿  SAA_Course_Project.cpp
-C:\Users\User\Desktop\University\UniversityExercises\Synthesis_And_Analysis_Of_Algorithms\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project.cpp(42,17): warning C4129: 'G': unrecognized character escape sequence
-C:\Users\User\Desktop\University\UniversityExercises\Synthesis_And_Analysis_Of_Algorithms\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project.cpp(81,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\Desktop\University\UniversityExercises\Synthesis_And_Analysis_Of_Algorithms\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project.cpp(42,18): warning C4129: 'G': unrecognized character escape sequence
+C:\Users\User\Desktop\University\UniversityExercises\Synthesis_And_Analysis_Of_Algorithms\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project\SAA_Course_Project.cpp(81,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   SAA_Course_Project.vcxproj -> C:\Users\User\Desktop\University\UniversityExercises\Synthesis_And_Analysis_Of_Algorithms\SAA_Course_Project\SAA_Course_Project\x64\Debug\SAA_Course_Project.exe

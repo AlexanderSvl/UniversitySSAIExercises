@@ -32,69 +32,73 @@ int main()
 	while (option != 0) {
 		switch (option)
 		{
-		case 1: {
-			std::string ID = generateID();
-			std::string name;
-			std::string accountID = generateID();
-			double accountAmount;
-			int SSN;
+			case 1: {
+				std::string ID = generateID();
+				std::string name;
+				std::string accountID = generateID();
+				double accountAmount;
+				int SSN;
 
-			std::cout << "\n\Generated customer ID: " << boldCode << greenCode << ID << resetCode;
+				std::cout << "\n\Generated customer ID: " << boldCode << greenCode << ID << resetCode;
 
-			std::cout << "\n\nEnter customer full name: ";
-			std::cin.ignore();
-			std::getline(std::cin, name);
+				std::cout << "\n\nEnter customer full name: ";
+				std::cin.ignore();
+				std::getline(std::cin, name);
 
-			std::cout << "\nEnter customer account amount: ";
-			std::cin >> accountAmount;
+				std::cout << "\nEnter customer account amount: ";
+				std::cin >> accountAmount;
 
-			std::cout << "\nEnter customer SSN ( Social Security Number ): ";
-			std::cin >> SSN;
+				std::cout << "\nEnter customer SSN ( Social Security Number ): ";
+				std::cin >> SSN;
 
-			customers.push_back(Customer(ID, name, accountID, accountAmount, SSN));
+				customers.push_back(Customer(ID, name, accountID, accountAmount, SSN));
 
-			break;
-		}
-		case 2: {
-			for (Customer customer : customers) {
-				customer.printInfo();
+				break;
 			}
-
-			break; 
-		}
-		case 3: {
-			for (int i = 0; i < customers.size() - 1; i++) {
-				for (int j = i + 1; j < customers.size(); j++) {
-					if (customers[i].getName() > customers[j].getName()) {
-						std::swap(customers[i], customers[j]);
-					}
-				}
-			}
-
-			for (Customer customer : customers) {
-				customer.printInfo();
-			}
-
-			break; 
-		}
-		case 4: {
-			quicksort(customers, 0, customers.size() - 1);
-
-			for (Customer customer : customers) {
-				customer.printInfo();
-			}
-		}
-		case 5: {
-			double salaryToSearchFor;
-			std::cout << "\nEnter lower salary limit: ";
-			std::cin >> salaryToSearchFor;
-
-			for (Customer customer : customers) {
-				if (customer.getAccountAmount() > salaryToSearchFor) {
+			case 2: {
+				for (Customer customer : customers) {
 					customer.printInfo();
 				}
+
+				break; 
 			}
-		}
+			case 3: {
+				for (int i = 0; i < customers.size() - 1; i++) {
+					for (int j = i + 1; j < customers.size(); j++) {
+						if (customers[i].getName() > customers[j].getName()) {
+							std::swap(customers[i], customers[j]);
+						}
+					}
+				}
+
+				for (Customer customer : customers) {
+					customer.printInfo();
+				}
+
+				break; 
+			}
+			case 4: {
+				quicksort(customers, 0, customers.size() - 1);
+
+				for (Customer customer : customers) {
+					customer.printInfo();
+				}
+
+				break;
+			}
+			case 5: {
+				double salaryToSearchFor;
+				std::cout << "\nEnter lower salary limit: ";
+				std::cin >> salaryToSearchFor;
+
+				for (Customer customer : customers) {
+					if (customer.getAccountAmount() > salaryToSearchFor) {
+						customer.printInfo();
+					}
+				}
+
+				break;
+			}
 		}
 
 		std::cout << redCode << boldCode << "\n\nChoose an option: " << resetCode;
